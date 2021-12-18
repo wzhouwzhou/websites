@@ -85,3 +85,6 @@ export default function Downloads() {
     </>
   );
 }
+
+Downloads.title = 'Server Stats | Download';
+Downloads.description = 'Download Server Stats - Bukkit, Spigot, Paper, Bungee, Waterfall, Fabric';

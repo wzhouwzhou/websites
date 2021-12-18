@@ -88,3 +88,6 @@ export default function Home() {
     </>
   );
 }
+
+Home.title = 'Server Stats';
+Home.description = 'Visualize your Minecraft server statistics in realtime';

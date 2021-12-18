@@ -58,7 +58,7 @@ const items = [
   },
 ];
 
-export default function Project() {
+export default function Projects() {
   return (
     <Center>
       <Spring>
@@ -82,3 +82,6 @@ export default function Project() {
     </Center>
   );
 }
+
+Projects.title = 'diced - projects';
+Projects.description = 'projects I have made';

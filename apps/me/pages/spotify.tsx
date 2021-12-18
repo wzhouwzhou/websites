@@ -38,3 +38,6 @@ export default function Spotify() {
     </Center>
   );
 }
+
+Spotify.title = 'diced - spotify';
+Spotify.description = 'what I\'m listening to';

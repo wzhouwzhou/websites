@@ -18,3 +18,6 @@ export default function Home() {
     </>
   );
 }
+
+Home.title = 'diced';
+Home.description = 'welcome';
