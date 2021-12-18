@@ -9,6 +9,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
+    "start": "turbo run start --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
@@ -32,6 +33,11 @@
       },
       "dev": {
         "cache": false
+      },
+      "start": {
+        "dependsOn": [
+          "^build"
+        ]
       }
     }
   },
